@@ -13,6 +13,8 @@
     text-decoration: none;
 }
 
+
+
 body{
     background-color: black;
 }
@@ -52,7 +54,14 @@ body{
 .menu-item{
     /* border: 1px solid red; */
     font-size: 20px;
+   
     
+}
+.menu-item a{
+  /* border: 1px solid red; */
+  font-size: 20px;
+  color: black;
+  
 }
 
 .header-button{
@@ -92,7 +101,7 @@ body{
   }
   
   .header-button:hover span {
-    transform: translateX(5em);
+    transform: translateX(5.5em);
   }
   
   .header-button:active {
@@ -213,9 +222,17 @@ body{
     text-align: center;
     margin: auto;
     margin : 10px;
-    padding: 20px;
+    padding: 50px 0px 30px 0px;
     border-radius: 5px;
     /* border: 2px solid rgb(47, 0, 255); */
+}
+
+.service-box .svg{
+  background-color: rgb(255, 145, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-bottom : 30px;
+  border-radius: 50px;
 }
 .service-box h3, p{
     margin-top: 8px;
@@ -233,8 +250,9 @@ body{
     /* border: 2px solid rgb(47, 0, 255); */
     margin: auto;
     width: 1000px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 45px;
+    
     text-align: center;
     padding-bottom: 10px;
 }
@@ -336,6 +354,7 @@ body{
     height: 50px;
     display: flex;
     margin: auto;
+   
     align-items: center;
     justify-content: center;
     margin-top: 10px;
@@ -362,6 +381,7 @@ body{
     color: #f9f9f9;
     box-shadow: 0 0 0 2px #F6D727;
     cursor: pointer;
+    margin-top: 60px;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
@@ -497,63 +517,138 @@ body{
 
   /* btn-2 */
 
+
+
+.achievement-section{
+  background-color: black;
+}
   
-.achieve{
-  border: 1px solid red;
+
+.achievement{
+    width: 1200px;
+    margin: auto;
+    padding: 30px 0px 40px 40px;
+    display: flex;
+    color: aliceblue;
+    /* border: 2px solid rgb(47, 0, 255); */
+    justify-content: center;
+    align-items: center;
 }
 
-.our-achieve{
-  width: 1200px;
-  /* background-color: #f9f9f9; */
-  margin: auto;
-  padding : 50px;
-  color: white;
-  /* height: 500px; */
-  border: 1px solid red;
-}
-.our-achieve .heading{
-  padding : 40px;
-  
-}
-
-.our-achieve-content{
-  width: 1000px;
-    
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-
-}
-
-.our-achieve-item{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: center;
-  align-items: center;
- 
-}
-.our-achieve-item-box{
+.achievement-box{
   width: 250px;
-  background-color: antiquewhite;
-  color: black;
+  /* background-color: antiquewhite; */
+  color: rgb(255, 255, 255);
   text-align: center;
   margin: auto;
   margin : 10px;
-  padding: 20px;
+  padding: 50px 0px 30px 0px;
   border-radius: 5px;
   /* border: 2px solid rgb(47, 0, 255); */
 }
-.our-achieve-item-box h3, p{
-  margin-top: 8px;
+
+.achievement-box .svg{
+  /* background-color: rgb(255, 145, 0); */
+  color: rgb(255, 145, 0);
+  padding: 20px;
+  margin-bottom : 10px;
+  border-radius: 50px;
+  
+}
+.achievement-box h3, p{
+    margin-top: 8px;
+    /* border: 2px solid rgb(47, 0, 255); */
+}
+.achievement-box h3{
+  margin-top: 5px;
+  font-size: 26px;
   /* border: 2px solid rgb(47, 0, 255); */
 }
-.btn{
-  font-weight: 600;
+.achievement-box h4{
+ 
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 400;
+  /* border: 2px solid rgb(47, 0, 255); */
 }
-.our-achieve-item-box img{
-  width: 150px;
-  height: 150px;
+
+
+/********************************************************************** Testiminoal Code End ****************************************************/
+
+.testimonials-section {
+  padding: 50px 0 100px;
+  background: white;
+  border: 1px solid red;
+
 }
+  
+
+.testimonials-section .slider-wrapper {
+      overflow: hidden;
+      margin: 0 60px 50px;
+      
+}
+   
+.testimonials-section .testimonial {
+  user-select: none;
+  padding: 35px;
+  display: flex;
+  /* border: 1px solid red;    */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.testimonials-section .testimonial .user-image{
+  width: 180px;
+  height: 180px;
+  margin-bottom: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.testimonials-section .testimonial .name {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.testimonials-section .testimonial .feedback {
+  line-height: 25px;
+}
+
+.testimonials-section .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  background: rgb(209, 32, 32);
+}
+
+.testimonials-section .swiper-slide-button {
+  color: black;
+  margin-top: -50px;
+  transition: 0.3s ease;
+}
+
+.testimonials-section .swiper-slide-button:hover {
+  color: blue;
+}
+
+
+
+:where(section, footer) .section-content {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1300px;
+}
+
+
+.section-content {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1300px;
+   /* border: 1px solid red;   */
+
+}
+/********************************************************************** Testiminoal Code End ****************************************************/
