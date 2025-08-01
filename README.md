@@ -28,23 +28,8 @@ A responsive and modern single-page website for SEO or digital marketing agencie
 
 ---
 
-## 📁 Project Structure
-```bash
 
-/
-/
-├── image/ # Images and icons
-├── index.html # Home page
-├── about-us.html
-├── our-services.html
-├── blog.html
-├── contact-us.html
-├── style.css # Main stylesheet
-├── script.js # JavaScript file
-├── note.txt # Project notes
-└── README.md
 
----
 
 ## 🛠️ Tech Stack
 
@@ -66,6 +51,24 @@ A responsive and modern single-page website for SEO or digital marketing agencie
 
 ---
 
+
+## 📁 Project Structure
+```plaintext
+├── image/ # Images and icons 
+├── index.html # Home page
+├── about-us.html
+├── our-services.html
+├── blog.html
+├── contact-us.html
+├── style.css # Main stylesheet
+├── script.js # JavaScript file
+├── note.txt # Project notes
+└── README.md
+ ``` 
+
+
+---
+
 ## 📦 Getting Started
 
 Clone the repo and open the `index.html` file in your browser:
@@ -77,7 +80,7 @@ open index.html
 
 ✍️ Author
 Amit Choudhary
-GitHub
+GitHub – digitalamitchoudhary
 
 📄 License
 Licensed under the MIT License.
